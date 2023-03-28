@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.202-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.ControllerCustomerServicesPage">
+    <children>
+        <ImageView fitHeight="400.0" fitWidth="232.0" layoutX="-2.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../backGrounds/cef80d67fe25f1beb34edde02054cd4a.jpg" />
+            </image>
+        </ImageView>
+        <Button fx:id="reciveMoneyButton" layoutX="275.0" layoutY="190.0" mnemonicParsing="false" onAction="#reciveMoneyButtonAction" prefHeight="34.0" prefWidth="250.0" style="-fx-background-color: #3c6771;" text="Receive money">
+            <font>
+                <Font name="System Bold Italic" size="14.0" />
+            </font>
+        </Button>
+        <Button fx:id="moneyTransfer" layoutX="275.0" layoutY="244.0" mnemonicParsing="false" onAction="#moneyTransferAction" prefHeight="34.0" prefWidth="250.0" style="-fx-background-color: #3c6771;" text="Money transfer">
+            <font>
+                <Font name="System Bold Italic" size="14.0" />
+            </font>
+        </Button>
+        <Button fx:id="balanceButton" layoutX="275.0" layoutY="135.0" mnemonicParsing="false" onAction="#balanceButtonAction" prefHeight="34.0" prefWidth="250.0" style="-fx-background-color: #3c6771;" text="Balance">
+            <font>
+                <Font name="System Bold Italic" size="14.0" />
+            </font>
+        </Button>
+    </children>
+</AnchorPane>

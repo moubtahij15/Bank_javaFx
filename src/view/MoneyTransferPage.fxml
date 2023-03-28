@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.202-ea" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text layoutX="237.0" layoutY="100.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Card ID">
+         <font>
+            <Font name="System Bold Italic" size="13.0" />
+         </font></Text>
+      <Text layoutX="235.0" layoutY="143.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Amount">
+         <font>
+            <Font name="System Bold Italic" size="13.0" />
+         </font></Text>
+      <ImageView fitHeight="408.0" fitWidth="226.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../backGrounds/375f096d65cb8b6f7640a3539a50bbae.jpg" />
+         </image>
+      </ImageView>
+      <TextField fx:id="cardIDText" layoutX="302.0" layoutY="83.0" prefHeight="25.0" prefWidth="220.0" promptText="Card ID" />
+      <TextField fx:id="amountText" layoutX="302.0" layoutY="126.0" prefHeight="25.0" prefWidth="220.0" promptText="Amount" />
+      <Text layoutX="232.0" layoutY="228.0" strokeType="OUTSIDE" strokeWidth="0.0" text="FullName">
+         <font>
+            <Font name="System Bold Italic" size="13.0" />
+         </font></Text>
+<!--      <Button fx:id="checkButton" layoutX="364.0" layoutY="174.0" mnemonicParsing="false" onAction="#checkButtonAction" style="-fx-background-color: #94d2cb;" text="Check Account">-->
+<!--         <font>-->
+<!--            <Font name="System Bold Italic" size="13.0" />-->
+<!--         </font></Button>-->
+<!--      <Button fx:id="sendButton" layoutX="364.0" layoutY="285.0" mnemonicParsing="false" onAction="#sendButtonAction" prefHeight="33.0" prefWidth="107.0" style="-fx-background-color: #94d2cb;" text="Send">-->
+<!--         <font>-->
+<!--            <Font name="Century Schoolbook Bold Italic" size="18.0" />-->
+<!--         </font>-->
+<!--      </Button>-->
+      <ImageView fitHeight="75.0" fitWidth="107.0" layoutX="491.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../backGrounds/backGround_4.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="fullNameLabel" layoutX="302.0" layoutY="206.0" prefHeight="35.0" prefWidth="220.0" textFill="#368321" />
+      <Label fx:id="checkButtonNotPressedErrorLabel" layoutX="345.0" layoutY="333.0" textFill="RED" />
+   </children>
+</AnchorPane>
